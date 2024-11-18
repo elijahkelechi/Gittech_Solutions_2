@@ -29,7 +29,7 @@ const HeroSection1 = () => {
   return (
     <div className="s ml-0 md:ml-8 lg:col-span-8 rounded bg-gradient-to-r from-secondary to-primary p-4 shadow-lg w-full">
       {/* Auto-writing effect using Typed.js */}
-      <h1 className="text-left text-gray-50 font-thin text-xl md:text-5xl">
+      <h1 className="text-left text-gray-50 font-bold md:font-thin text-xl md:text-5xl">
         <span ref={typedRef}></span>
       </h1>
 
