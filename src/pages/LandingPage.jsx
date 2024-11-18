@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import Hero from "../components/Hero";
-import LandingPageServices from "../components/landingPageServices";
+import LandingPageServices from "../components/LandingPageServices";
 import LandingPageTestimonials from "../components/landingPageTestimonials";
 import LandingPageContact from "../components/LandingPageContact";
 import RotatingEarth from "../components/RotatingEarth";
