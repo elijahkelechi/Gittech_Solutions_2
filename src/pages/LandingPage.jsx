@@ -53,7 +53,7 @@ const LandingPage = () => {
       <div className="absolute w-full  mt-[88rem] md:mt-[68rem] lg:mt-[70rem] ">
         <section className="py-16 px-4 md-px-8 bg-gradient-to-r from-secondary to-primary">
           <div className="container mx-auto text-center">
-            <h2 className="text-4xl font-thin mb-6 text-gray-50">
+            <h2 className="text-4xl font-bold md:font-thin mb-6 text-gray-50">
               Our Services
             </h2>
             <p className="text-lg max-w-3xl mx-auto text-gray-50">
@@ -82,10 +82,10 @@ const LandingPage = () => {
         {/* Testimonials Section */}
         <section className="py-16 bg-gradient-to-r from-secondary to-primary">
           <div className="container mx-auto text-center">
-            <h2 className="text-4xl mb-6 text-gray-50 font-thin">
+            <h2 className="text-4xl mb-6 text-gray-50  font-bold md:font-thin">
               What Our Clients Say
             </h2>
-            <p className="text-lg text-gray-50 mb-12 max-w-3xl mx-auto">
+            <p className="text-lg text-gray-50 mb-12 mx-8">
               Hear from clients who trust us to capture, analyze, and deliver
               stunning aerial solutions.
             </p>
