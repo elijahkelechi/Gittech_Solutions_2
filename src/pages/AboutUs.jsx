@@ -59,10 +59,10 @@ const AboutUs = () => {
           <div className="container mx-auto text-center p-2 md:p-4">
             <h2 className="text-4xl font-bold mb-8">Our Mission & Vision</h2>
             <p className="text-lg max-w-3xl mx-auto mb-12">
-              Our mission is to revolutionize industries by leveraging
-              cutting-edge technologies in automation, robotics, green energy,
-              and AI. We envision a world where technology seamlessly enhances
-              the quality of life, sustainability, and innovation.
+              At Global Integrated Idea Tech Solutions, we pioneer innovative
+              solutions that empower individuals, firms, and institutions to
+              thrive in an ever-evolving world. Our expertise spans a broad
+              spectrum of cutting-edge technologies
             </p>
             <div className="flex justify-center space-x-2 md:space-x-8">
               <div className="bg-gradient-to-r from-teal-600 to-teal-400 mb-8 p-2 md:p-4 rounded-lg shadow-lg w-72">
