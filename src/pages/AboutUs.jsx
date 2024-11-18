@@ -5,7 +5,7 @@ import founderPhoto from "../assets/team-photos/founder.jpeg";
 
 const AboutUs = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-secondary to-primary flex flex-col items-center py-8 px-4 ">
+    <div className="min-h-screen bg-gradient-to-r from-secondary to-primary flex flex-col  mb-0">
       {/* Company Overview Section */}
       <div className="m-4 md:mx-12">
         <div className=" bg-gradient-to-r from-secondary to-primary">
@@ -136,10 +136,9 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div>
-        {/* Call to Action */}
-        <LandingPageContact />
-      </div>
+
+      {/* Call to Action */}
+      <LandingPageContact />
     </div>
   );
 };
