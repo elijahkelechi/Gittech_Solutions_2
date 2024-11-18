@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .align-elements {
+    @apply mx-8;
+  }
+}
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Make the flip animation last 2 seconds */
+.flip-animation {
+  animation: flip 2s linear; /* Flip takes 2 seconds */
+}
+
+/* Ensure it runs once every 4 seconds */
+.trigger {
+  animation: flip 4s linear infinite; /* Loop every 4 seconds */
+  animation-delay: 5s; /* Delay the first flip to start after 2 seconds */
+}
+
+/* This keeps the opacity at 1, ensuring the logo is visible during the flip */
+@keyframes visibility {
+  0%,
+  20% {
+    opacity: 1; /* Fully visible for the first 20% */
+  }
+  21%,
+  80% {
+    opacity: 1; /* Keep it visible during the flip */
+  }
+  81%,
+  100% {
+    opacity: 1; /* Stay visible after the flip */
+  }
+}
+
+.visibility {
+  animation: visibility 4s linear; /* Ensure visibility animation lasts for the same duration */
+}

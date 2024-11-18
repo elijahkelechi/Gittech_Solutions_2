@@ -1,0 +1,11 @@
+export { default as HomeLayout } from "./Homelayout";
+export { default as LandingPage } from "./LandingPage";
+export { default as ErrorPage } from "./ErrorPage";
+export { default as AboutUs } from "./AboutUs";
+export { default as Products } from "./Products";
+export { default as Services } from "./Services";
+export { default as ContactUs } from "./ContactUs";
+export { default as Training } from "./Training";
+export { default as Gallery } from "./Gallery";
+export { default as Events } from "./Events";
+export { default as Accessories } from "./Accessories";
