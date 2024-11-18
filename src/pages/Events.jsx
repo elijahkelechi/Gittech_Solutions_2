@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import bgImage from "../assets/events.webp";
-import LandingPageContact from "../components/landingPageContact";
+import LandingPageContact from "../components/LandingPageContact";
 
 const Events = () => {
   return (
