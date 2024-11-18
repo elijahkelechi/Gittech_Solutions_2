@@ -34,7 +34,7 @@ const HeroSection1 = () => {
       </h1>
 
       {/* Mobile display: Visible on md and smaller, hidden on lg */}
-      <p className="block md:block  text-gray-50 mt-6 text-sm font-bold">
+      <p className="block md:block  text-gray-50 mt-6 text-sm">
         Power your tech dreams today with GiiTechSolutions <br />
         <Link
           //   to="/products"

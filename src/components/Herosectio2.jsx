@@ -17,12 +17,12 @@ const Herosectio2 = () => {
         </h1>
 
         {/* Header for mobile screens */}
-        <h1 className="md:hidden text-left text-gray-50 font-thin text-3xl pt-4">
+        <h1 className="md:hidden text-left text-gray-50 font-bold text-3xl pt-4">
           Our Mission
         </h1>
 
         {/* Paragraph with typing effect */}
-        <p className="text-gray-50 text-left font-bold mt-4">
+        <p className="text-gray-50 text-left mt-4">
           <span>
             At Global Integrated Idea Tech Solutions, we pioneer innovative
             solutions that empower individuals, firms, and institutions to
